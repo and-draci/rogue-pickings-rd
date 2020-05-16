@@ -187,6 +187,21 @@ footer span {
 /*-------DESKTOP--------*/
 
 @media all and (min-width: 1200px) {
+	header {
+		justify-content: space-between;
+	}
+
+	header h1 {
+		width: 30%;
+        padding: 0;
+        border-bottom: none;
+        text-align: left;
+	}
+
+	header nav {
+		width: 40%;
+	}
+	
 	header nav ul {
 		display: flex;
 		justify-content: space-between;
